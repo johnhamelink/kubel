@@ -207,7 +207,7 @@
                 :value-type face)
   :group 'kubel)
 
-(defcustom kubel-kubectl "kubectl"
+(defcustom kubel-kubectl tramp-kubernetes-program
   "Kubectl binary path."
   :type '(file :must-match t)
   :group 'kubel)
